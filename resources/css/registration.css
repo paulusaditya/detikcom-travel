@@ -1,0 +1,239 @@
+.registration {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    overflow-x: hidden;
+    max-width: 100%;
+    top: 0px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.registration-background {
+    background-image: url(../images/Desktop-1.png);
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    overflow-x: hidden;
+    top: 0px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.judul {
+    transform: translate(0%,170%);
+}
+
+.registration-background h2,p {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+
+}
+
+.registration-form {
+    width: 624px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0;
+    text-align: left ;
+    justify-content: center;
+    transform: translate(73%,15%);
+    font-size: 12px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek visual */
+}
+
+.form-input {
+    width: 584px;
+    height: 47px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border: none;
+    
+}
+
+.registration-form span {
+    font-size: 10px;
+    color: grey;
+}
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.file-upload-wrapper input[type="file"] {
+    display: none;
+}
+
+.file-upload-wrapper .icon {
+    background-color: #00bfff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.file-upload-wrapper .label {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-upload-wrapper .label span {
+    color: red;
+}
+
+.file-upload-info {
+    margin-left: 20px;
+}
+
+.file-upload-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+.checkbox-ea{
+    display: inline;
+    
+}
+
+.checkbox-desc {
+    margin-left: 10px;
+}
+
+.checkbox-desc span {
+    font-size: 12px;
+    color: #00bfff;
+}
+
+.submit-button {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-style: none;
+    background-color: #00bfff;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    transform: translate(65%,0%);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.submit-button:hover{
+    background-color: #FAA91C;
+}
+
+footer {
+    background-color: #00D1FF;
+    top: 0px;
+    min-height: 100px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+.footer img{
+    width: 285.99px;
+    height: auto;
+    top: 60px;
+    left: 60px;
+    position: relative;
+    
+}
+
+.foot-desc {
+    width: 1008px;
+    left: 60px;
+    top: 60px;
+    position: relative;
+    
+}
+
+.foot-desc p {
+    justify-content: left;
+    text-align: left;
+}
+
+.sosmed{
+    justify-content: center;
+    text-align: center;
+}
+
+.sosmed p {
+    transform: translate(-15%, 0%);
+}
+
+.foot-sosmed {
+    display:flex;
+    justify-content: end;
+    flex-direction: row;
+    transform: translate(-3%, -50%);
+    
+}
+
+.foot-sosmed img{
+    width: 185px;
+    top: -10px;
+    left: -28px;
+}
+
+.copyright p{
+    position: relative;
+    text-align: left;
+    justify-content: left;
+}
+

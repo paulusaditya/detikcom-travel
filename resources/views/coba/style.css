@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+
+.content-1 {
+    z-index: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+
+
+}
+
+nav {
+    width: 90%; /* Menghindari overflow horizontal */
+    height: auto;
+    top: 51px;
+    left: 72px;
+    padding: 25px 35px 25px 35px;
+    gap: 120px;
+    border-radius: 100px;
+    z-index: 9999;
+
+}
+
+.container-fluid a {
+    font-size: 33px;
+    color: #21409A;
+    font-weight: 700;
+    left: 20px;
+    position: relative;
+}
+
+.container-fluid span {
+    font-size: 33px;
+    background: linear-gradient(90deg, #F05022, #FAA91C);
+    text-transform: lowercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.container-fluid b {
+    font-weight: 600;
+    text-transform: none;
+}
+
+.container-fluid {
+    width: 200px;
+    left: 35px;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+}
+
+.navbar-nav {
+    gap: 120px;
+}
+
+.nav-item {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: center;
+}
+
+.nav-item:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nav-button {
+    color: white;
+    border: none;
+    background-color: #FFC73C;
+    box-shadow: 0 4px 20px #FFC73C;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 123px;
+}
+
+.nav-button:hover {
+    background-color: #F05022;
+}
+
+.brand {
+    top: 500px;
+    left: 150px;
+    width: 650px;
+    position: relative;
+    gap: 36px;
+    z-index: 1;
+}
+
+.explore {
+    background-image: url(../images/Group.png);
+    height: 250px;
+    width: 640px;
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.brand-button {
+    color: white;
+    border: none;
+    background-color: #FFC73C;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    left: 20px;
+    box-shadow: 0 5px 50px #FFC73C;
+}
+
+.brand-button:hover {
+    background-color: #F05022;
+}
+
+
+.content-2 {
+    background-image: url(../images/tentang-program.png);
+    overflow: hidden;
+    min-height: 100vh;
+    padding-top: 0;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 1024px;
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about-image img {
+    width: 550px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.title {
+    width: 630px;
+    position: relative;
+    top: -350px;
+    left: 700px;
+}
+
+.title h1, p {
+    color: white;
+    position: relative;
+    margin-top: 10px;
+}
+
+.title .nav-button {
+    color: white;
+    border: none;
+    background-color: #FFC73C;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    left: 20px;
+    box-shadow: 0 6px 20px #FFC73C;
+    width: 40%;
+}
+
+.title .nav-button:hover {
+    background-color: #e78f76;
+}
+
+.title img {
+    margin-top: 40px;
+}
+
+.content-3 {
+    background-image: url(../images/berita.png);
+    overflow: auto;
+    min-height: 100vh;
+    padding-top: 0;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 1024px;
+}
+
+.content-3 .container-fluid {
+    width: 441px;
+    height: 60px;
+    position: relative;
+    left: -470px;
+    margin-top: 140px;
+}
+
+.berita-content {
+    display: grid;
+    margin-left: 95px;
+    width: 1296px;
+    height: 607px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.berita-content .thumbnail {
+    width: 636px;
+    height: 608px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.berita-content .thumbnail img {
+    border-radius: 20px 20px 0 0;
+    opacity: 1;
+    transition: transform 0.2s ease;
+    object-fit:cover;
+}
+
+.thumbnail:hover  img {
+    transform: scale(1.1); /* Zoom gambar saat hover */
+}
+
+.desc {
+    position:absolute; /* Buat desc posisinya absolut agar muncul di atas gambar */
+    bottom:0 ; /* Letakkan desc di bagian bawah thumbnail */
+    left: 0; /* Mulai dari kiri */
+    width: 100%; /* Buat desc selebar thumbnail */
+    color: white;
+    background-color: #00D1FF;
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
+    box-sizing: border-box; /* Pastikan padding diatur dengan benar */
+}
+
+.desc:hover {
+    color: #FAA91C;
+    transition: 1s;
+}
+
+.other-thumbnail {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 765px;
+    width: 653px;
+    height: 606px;
+}
+
+
+
+.artikel-1, .artikel-2, .artikel-3 {
+    display: flex;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.artikel-1, .artikel-2, .artikel-3, img {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+.other-thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.artikel-1, .artikel-2, .artikel-3, h6 {
+    color: black;
+    padding-top: 10px;
+    font-weight: 500px;
+}
+
+.describe p {
+    margin-left: 15px;
+    width: 408px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.describe span {
+    color: gray;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.berita-button {
+    color: white;
+    background-color:#00D1FF ;
+    border-style: none;
+    width: 619px;
+    height: 72px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.berita-button:hover{
+    background-color: #FAA91C;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #00D1FF;
+    top: 0px;
+    min-height: 100px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+
+
+.footer img{
+    width: 285.99px;
+    height: auto;
+    top: 60px;
+    left: 60px;
+    position: relative;
+    
+}
+
+.foot-desc {
+    width: 1008px;
+    left: 60px;
+    top: 60px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.foot-sosmed {
+    display:grid;
+    justify-content: end;
+    top: -20px;
+}
+
+.foot-sosmed img{
+    width: 185px;
+    top: -10px;
+    left: -28px;
+}
+
+.copyright{
+    position: relative;
+    left: 60px;
+}
+
+
+.carousel{
+    width: 100vw;
+    height: 1024px;
+    margin-top: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel .list .item{
+    width: 180px;
+    height: 250px;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+    left: 70%;
+    border-radius: 20px;
+    box-shadow: 0 1px 30px white;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 100;
+    transition: 1s;
+}
+
+.carousel .list .item:nth-child(1),
+.carousel .list .item:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .list .item:nth-child(3){
+    left: 67%;
+}
+
+.carousel .list .item:nth-child(4){
+    left: calc(67% + 200px);
+}
+
+.carousel .list .item:nth-child(5){
+    left: calc(67% + 400px);
+}
+
+.carousel .list .item:nth-child(6){
+    left: calc(67% + 600px);
+}
+
+.carousel .list .item:nth-child(n+7){
+    left: calc(67% + 800px);
+    opacity: 0;
+}
+
+
+@keyframes animate {
+    
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+
+
+.arrows{
+    position: absolute;
+    top: 80%;
+    right: 52%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.arrows button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #14ff72cb;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.arrows button:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+/* time running */
+.carousel .timeRunning{
+    position: absolute;
+    z-index: 1000;
+    width: 0%;
+    height: 4px;
+    background-color: #14ff72cb;
+    left: 0;
+    top: 0;
+    animation: runningTime 7s linear 1 forwards;
+}
+
+@keyframes runningTime {
+    
+    from{width: 0%;}
+    to{width: 100%;}
+
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 999px){
+    
+    header{
+        padding-left: 50px;
+    }
+
+    .list .item .content{
+        left: 50px;
+    }
+
+    .content .title, .content .name{
+        font-size: 70px;
+    }
+
+    .content .des{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 690px){
+    header nav a{
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .list .item .content{
+        top: 40%;
+    }
+
+    .content .title, .content .name{
+        font-size: 45px;
+    }
+
+    .content .btn button{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
